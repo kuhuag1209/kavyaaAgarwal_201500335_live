@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+height: 8vh;
+border-bottom: 2px solid rgb(226, 226, 226);
+}
+.header ul{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.header ul li{
+    list-style: none;
+    padding : 10px;
+}
+
+.header ul li:hover{
+    color : rgb(202, 17, 48);
+    background-color: rgb(226, 226, 226);
+}
+.cards1{
+
+}
+.cards1 ul{
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    margin : 5px 20px;
+}
+.cards1 ul li{
+    list-style: none;
+}
+
+.card ul{
+    display : flex;
+    flex-direction: column;
+    height : 65vh;
+    width : 24vw;
+    border : 1px solid black;
+    
+}
+.card ul li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    /* padding : 10px; */
+}
+.card ul li img{
+    height : 30vh;
+    width : 24vw;
+    display : flex;
+    align-items: flex-start;
+    position : relative;
+    bottom : 16px;
+}
+
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top : 10px;
+    margin-bottom : 35px;
+    text-align: center;
+}
+
+.read{
+    color:rgb(202, 17, 48);
+    padding: 10px;
+}
+.cardhead{
+    padding: 0px 10px 10px 10px;
+}
+.text{
+    padding: 10px;
+}
+
+.red{
+    height : 10px;
+    width : 10px;
+    
+}
+#logo{
+    width: 170px;
+    height:80px;
+    border-color: black;
+    background-image: url(../images/Screenshot\ 2022-07-11\ 174707.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    }
+    #logo1{
+        width:40px;
+        height: 40px;
+        border-color: red;
+        background-image: url(../images/Screenshot\ 2022-07-11\ 182707.png);
+        background-repeat: no-repeat;
+    }
+    footer ul {
+        list-style: none;
+               display: flex;
+               text-decoration: none;
+               text-transform: uppercase;
+               color: black;
+               padding: 0px 50px;
+               font-size: 20px;
+               transition: 0.5s;
+               justify-content: space-between;
+    }
